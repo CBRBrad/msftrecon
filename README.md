@@ -10,13 +10,23 @@ MSFTRecon is a reconnaissance tool designed for red teamers and security profess
 git clone https://github.com/Arcanum-Sec/msftrecon.git
 cd msftrecon
 
-# Create virtual environment
-python3 -m venv venv
+# Install Virtualenv for Kali
+sudo apt install python3-virtualenv
+
+# Create virtual environment (Kali)
+virtualenv venv  (venv = envrionment name)
+# Activate virtual environment
 source venv/bin/activate
 
 # Install requirements
 pip install -r requirements.txt
 chmod +x msftrecon.py
+
+# Deactivate the Environment
+deactivate
+
+# Delete the Environment
+rm -rf venv
 ```
 
 ## Usage

@@ -13,6 +13,9 @@ cd msftrecon
 # Install Virtualenv for Kali
 sudo apt install python3-virtualenv
 
+# Install pipx
+sudo apt install -y pipx
+
 # Create virtual environment (Kali)
 virtualenv venv  (venv = envrionment name)
 # Activate virtual environment
